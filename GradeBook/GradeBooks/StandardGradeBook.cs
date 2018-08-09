@@ -9,7 +9,7 @@ namespace GradeBook.GradeBooks
        public StandardGradeBook(string name, bool weighted) :base(name, weighted)
         {
             Type = GradeBookType.Standard;
-            Type = GradeBookType.Ranked;
+          
             IsWeighted = weighted;
         }  
 
